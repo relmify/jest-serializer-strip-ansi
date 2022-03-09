@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "dist": false
+  },
+  "search.exclude": {
+    "dist": true,
+    "package-lock.json": true
+  },
+  "typescript.tsc.autoDetect": "on",
+  "editor.tabSize": 2,
+  "jestrunner.jestCommand": "npm run jest --",
+  "prettier.printWidth": 100
+}
