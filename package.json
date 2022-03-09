@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "jest snapshot serializer for removing ANSI text formatting escape codes",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "/dist",
     "always.js",
