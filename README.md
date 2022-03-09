@@ -1,5 +1,7 @@
 # Jest Snapshot Serializer to Remove ANSI Escape Codes
 
+[![CI](https://github.com/relmify/jest-serializer-strip-ansi/actions/workflows/main.yml/badge.svg)](https://github.com/relmify/jest-serializer-strip-ansi/actions/workflows/main.yml)
+
 ## Problem
 
 When you create your own custom jest matchers, you'll want to test that those matchers produce the
