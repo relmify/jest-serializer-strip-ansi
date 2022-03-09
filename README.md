@@ -86,9 +86,8 @@ import { stripAnsi } from '@relmify/jest-serializer-strip-ansi';
 expect.addSnapshotSerializer(stripAnsi);
 ```
 
-Note that you can add multiple snapshot serializers in your jest configuration (this can be helpful
-if you want to also use a snapshot serializer like `jest-snapshot-serializer-raw`), but you can only
-add one snapshot serializer at a time using `expect.addSnapshotSerializer()`. Calling
+Note that you can add multiple snapshot serializers in your jest configuration, but you can only add
+one snapshot serializer at a time using `expect.addSnapshotSerializer()`. Calling
 `expect.addSnapshotSerializer()` a second time will replace the previously added serializer.
 
 ## LICENSE
