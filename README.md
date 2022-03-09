@@ -75,8 +75,10 @@ module.exports = {
 };
 ```
 
-If you want to use the serializer only in certain test files, then instead of adding the serializer to
-your jest configuration, you can do the following:
+### Per-file use
+
+If you want to use the serializer only in certain test files, then instead of adding the serializer
+to your jest configuration, you can add the following to your selected test files:
 
 ```ts
 import { stripAnsi } from '@relmify/jest-serializer-strip-ansi';
