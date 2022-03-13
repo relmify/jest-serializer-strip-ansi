@@ -1,6 +1,6 @@
 {
   "name": "@relmify/jest-serializer-strip-ansi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jest snapshot serializer for removing ANSI text formatting escape codes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
